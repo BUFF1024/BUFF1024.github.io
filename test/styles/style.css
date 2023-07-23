@@ -31,7 +31,7 @@ html{
     background-color: #232323;
 }  
 body {
-    width: 1400px;
+    width: 70%;
     margin: 0 auto;
     background-color: #e9f0e5;
     padding: 0 20px 20px 20px;
@@ -47,6 +47,7 @@ body {
     height: 500px;
     display: block;
     margin-left: 2%;
+    cursor: pointer;
   }
   .wbbk{
     line-height: 1.5;
@@ -124,4 +125,19 @@ font-size: 2ch ;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center 0;
+}
+#zhuijiablock{
+  background-color:white;
+  margin-block: auto;
+  line-height: 1.8;
+  font-weight: 600;
+  padding: 20px;
+}
+.renshe{
+  height: 700px;
+  width: auto;
+}
+.kuangjia{
+  display: flex;
+  flex-direction: row;
 }

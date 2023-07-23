@@ -12,10 +12,11 @@
     </header>
    
     <main>
+      <!--评分及详情-->
     <div class="qufen">
     <div class="wbbk">
       <div class="post">
-    <img src="images/pic1.jfif" alt="海报" id="zhanshitu" >
+    <img src="images/pic1.jpg" alt="海报" id="zhanshitu" >
     <p style="font-size: 15px;">（点击可切换封面）</p>
     </div>
     <div class="title">
@@ -44,6 +45,8 @@
   </div>
     </div>
     </div>
+
+<!--视频插入-->
     <p style="font-weight:bolder;font-size: 30px;">OP欣赏：</p>
     <div style="text-align: center;">
     <video controls width="70%" height="70%" poster="images/封面.png">
@@ -51,29 +54,49 @@
     </video>
     </div>
     <p></p>
-    <p>在LycoReco咖啡厅，有许多美少女店员：</p>
+    <p style="font-weight:bolder;font-size: 25px;">在LycoReco咖啡厅，有许多美少女店员：</p>
     
+    <!--人物介绍-->
     <div class="rwjs" style="background-color: #e9f0e5;;padding: 2%;">
   <li id="qianshu">锦木千束</li>
-  <div class="kuangjia" style="display: flex;flex-direction: row;">
+  <div class="kuangjia" >
   <div class="tupian"><img class="renshe" src="images/千束人设.png"></div>
   <div class="miaoshu">
   Lycoris Recoil及其衍生作品中的女主角，被誉为是历代最强的Lycoris 。从小是孤儿，在DA被抚养长大，后为了寻找那个救助过她的人而离开DA。性格外向开朗，热情活泼，乐于助人。在“LycoReco”咖啡厅里，千束自称是招牌女店员，乐于解决DA不处理的民间委托，整天保持活泼向上的精神状态。
 </div></div>
     <li id="longnai">井之上泷奈</li>
-    <div class="kuangjia" style="display: flex;flex-direction: row;">
+    <div class="kuangjia" >
     <div class="tupian"><img class="renshe" src="images/泷奈人设.png"></div>
     <div class="miaoshu">
       井之上泷奈是位优秀的次席Lycoris，代号LC3023。从小是孤儿，在DA被抚养长大，一年前从京都调至东京。在一次军火交易中，本是上级弄错了真正的交易时间而未发现枪支，但为了掩盖错误而把失败归咎于泷奈，泷奈因此被“调任”到“LycoReco”咖啡厅，不明真相的她因想回归DA而想在那努力工作，拿出成果，
 </div></div>
   <li id="hutao">胡桃</li>
-  <div class="kuangjia" style="display: flex;flex-direction: row;">
+  <div class="kuangjia" >
     <div class="tupian"><img class="renshe" src="images/胡桃人设.png"></div>
     <div class="miaoshu">某天突然来到LycoReco咖啡厅的离家少女，真实身份是最强黑客“Walnut”。外表看似年幼，但能和米卡对等进行些成熟的对谈，实际年龄不详。为了逃离追捕者，暂时躲在咖啡店里。只期待着打烊后跟老主顾的游戏聚会，是个为了住宿费才勉为其难工作的不良店员。
 </div></div>
+
+
 <p>她们一起工作，但同时也要在暗处与邪恶的势力作斗争…… </p>
 <p></p>
+<div>
+  <p>分集剧情介绍</p>
+</div>
 <p><span style="font-size: 32px; margin: 21px 0; display: block;">如果想了解更多她们的故事，请点击<a href="https://ddys.art/lycoris-recoil/" title="莉可丽丝动漫观看">这里</a></span></p>
+
+
+<div id="zhuijiablock">
+<label for="character" style="font-size: large;">选择你最喜欢的角色：</label>
+<select id="character">
+  <option value="">--下拉选择--</option>
+  <option value="qs">锦木千束</option>
+  <option value="ln">井之上泷奈</option>
+  <option value="ht">胡桃</option>
+</select>
+<p id="zhuijiatext"></p>
+</div>
+
+
 <div id="beijing"></div>
 </div>
 </main>
