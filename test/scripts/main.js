@@ -1,3 +1,4 @@
+//点击更换海报图片
 let myImage = document.querySelector('img');
 
 myImage.onclick = function() {
@@ -8,6 +9,7 @@ myImage.onclick = function() {
       myImage.setAttribute('src', 'images/pic1.jpg');
     }
 }
+//选择最喜欢的角色
 const select = document.querySelector('select');
 const para = document.querySelector("#zhuijiatext");
 
@@ -31,3 +33,6 @@ function setcharacter(){
   }
 
 }
+
+
+//轮播图控制实验

@@ -13,6 +13,7 @@
    
     <main>
       <!--评分及详情-->
+      <p>  注：目前还没有怎么做响应式 手机端浏览体验不好</p>
     <div class="qufen">
     <div class="wbbk">
       <div class="post">
@@ -79,9 +80,7 @@
 
 <p>她们一起工作，但同时也要在暗处与邪恶的势力作斗争…… </p>
 <p></p>
-<div>
-  <p>分集剧情介绍</p>
-</div>
+
 <p><span style="font-size: 32px; margin: 21px 0; display: block;">如果想了解更多她们的故事，请点击<a href="https://ddys.art/lycoris-recoil/" title="莉可丽丝动漫观看">这里</a></span></p>
 
 
@@ -95,6 +94,45 @@
 </select>
 <p id="zhuijiatext"></p>
 </div>
+
+<p>测试1：css实现自动循环滚动图，无法手动控制。</p>
+<div id="lunbotu">
+<div class="banner-container">
+  <img class="lunbo" src="images/fst.png">
+  <img class="lunbo" src="images/sec.png">
+  <img class="lunbo" src="images/thd.png">
+</div>
+</div>
+<!--循环时间不好控制，关键帧方法不稳定，效果一般-->
+
+<p>测试2：尝试使用js手动控制图片滚动&nbsp;&nbsp;&nbsp;*失败中*</p>
+<div id="slider">
+<div class="slider-container">
+  <img class="lunbo" src="images/fst.png">
+  <img class="lunbo" src="images/sec.png">
+  <img class="lunbo" src="images/thd.png">
+</div>
+
+  <div class="indicator-container">
+    <span class="indicator active"></span>
+    <span class="indicator"></span>
+    <span class="indicator"></span>
+    <span class="indicator"></span>
+    <span class="indicator"></span>
+</div>
+
+<button class="btn" id="leftBtn"> 1 </button> 
+<button class="btn" id="rightBtn"> 2 </button>
+<button class="btn" id="backbtn"> 3 </button>
+
+</div>
+
+<p>测试3：尝试插入音频文件 不知道怎么美化</p>
+<audio controls width="auto" autoplay="fause" loop="loop" preload="meta">
+  <source src="audios/舞女.flac">
+</audio>
+
+<p>测试4：尝试插入分类表格</p>
 
 
 <div id="beijing"></div>
